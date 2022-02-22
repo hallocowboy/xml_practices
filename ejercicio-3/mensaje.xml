@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<men:mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:men="http://www.abrirllave.com/mensaje" xsi:schemaLocation="http://www.abrirllave.com/mensaje mensaje.xsd">
+  <origen>
+    <nombre>Ana Sanz Tin</nombre>
+    <ciudad>Pamplona</ciudad>
+  </origen>
+  <destino>
+    <nombre>Iker Rubio Mol</nombre>
+    <ciudad>Sevilla</ciudad>
+  </destino>
+  <men:asunto>¡Vuelve pronto!</men:asunto>
+</men:mensaje>
