@@ -1,2 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<tipoDeVehiculo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/vehiculo.xsd">bicicleta</tipoDeVehiculo>
+<vehiculos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/ejercicio-9/vehiculo.xsd">
+<vehiculo>tren</vehiculo>
+</vehiculos>

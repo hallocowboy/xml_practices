@@ -11,9 +11,16 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="nombre" type="xs:string"/>
-        <xs:element name="edad" type="xs:integer"/>
+        <xs:element name="edad">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minExclusive value="0"/>
+              <xs:maxExclusive value="130"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
       </xs:sequence>
-      <xs:attribute name="numero" type="xs:integer" use="required"/>
+      <xs:attribute name="numero" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>

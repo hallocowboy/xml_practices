@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema targetNamespace="http://www.abrirllave.com/mensaje" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrirllave.com/mensaje" xmlns:me="http://www.abrirllave.com/mensaje" xsi:schemaLocation="http://www.abrirllave.com/mensaje /home/alumno/Documentos/src/xml/mensaje.xsd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mens="http://www.abrirllave.com/mensaje" targetNamespace="http://www.abrirllave.com/mensaje">
   <xs:element name="mensaje">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="origen" type="me:datosOrigenDestino"/>
-        <xs:element name="destino" type="me:datosOrigenDestino"/>
-        <xs:element ref="me:asunto"/>
+        <xs:element name="origen" type="mens:datosOrigenDestino"/>
+        <xs:element name="destino" type="mens:datosOrigenDestino"/>
+        <xs:element ref="mens:asunto"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

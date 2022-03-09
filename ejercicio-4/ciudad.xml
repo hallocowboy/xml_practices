@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/ciudad.xsd">
+<ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/ejercicio-4/ciudad.xsd">
   <ciudad>Roma</ciudad>
   <fecha-de-nacimiento>1996-12-18</fecha-de-nacimiento>
   <hora>18:29:45</hora>

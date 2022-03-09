@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<puertas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/puertas.xsd">
+<puertas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/alumno/Documentos/src/xml/ejercicio-5/puertas.xsd">
 <puertaCerrada>true</puertaCerrada>
 <ventanaAbierta></ventanaAbierta>
 </puertas>

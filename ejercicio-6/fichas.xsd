@@ -16,12 +16,4 @@
       <xs:attribute name="numero" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
-  
-<xs:simpleType name="edadPersona">
-<xs:restriction base="xs:integer">
-<xs:minExclusive value="1"/>
-<xs:maxExclusive value="140"/>
-</xs:restriction>
-</xs:simpleType>
-
 </xs:schema>
